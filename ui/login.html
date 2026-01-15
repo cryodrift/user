@@ -1,0 +1,22 @@
+<form method="post">
+    <fieldset class="{{g-box-round}}">
+        <a href="/">back</a>
+        <div class="gl-fr g-m1 g-mt g-ml g-p1c">
+            <label for="input_mail" class="g-db gl-w2 g-mh g-ph">Mail</label>
+            <input id="input_mail" class="g-b g-bbr g-btr g-mh g-ph g-w gl-w4 g-db" type="email" name="user" value="{{user}}" placeholder="Enter Email" required>
+        </div>
+        <div class="gl-fr g-m1 g-mt g-ml g-p1c">
+            <label for="input_pass" class="g-db gl-w2 g-mh g-ph">Password</label>
+            <input id="input_pass" class="g-b g-bbr g-btr g-mh g-ph g-w gl-w4 g-db" type="password" name="password" required>
+        </div>
+        {{@}}codeblock{{@}}
+        <div class="gl-fr g-m1 g-mt g-ml g-p1c">
+            <label for="input_code" class="g-db gl-w2 g-mh g-ph">Code</label>
+            <input id="input_code" class="g-b g-bbr g-btr g-mh g-ph g-w gl-w4 g-db" type="text" name="code" required>
+        </div>
+        {{@}}codeblock{{@}}
+        <button class="{{g-button}}" type="submit">Login</button>
+
+    </fieldset>
+
+</form>
