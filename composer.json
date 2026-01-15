@@ -3,7 +3,7 @@
     "description": "User management and authentication helpers.",
     "type": "library",
     "license": "Apache-2.0",
-    "version": "0.1.7",
+    "version": "0.1.8",
     "require": {
         "php": ">=8.4",
         "cryodrift/fw": "^0.1.0",
