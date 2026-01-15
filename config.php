@@ -6,8 +6,8 @@
  * @composer pragmarx/google2fa
  * @env USER_USEAUTH=true
  * @env USER_HTTPS=true
- * @env USER_COOKIEPASSWORD="-secret= RUN: php index.php /user/cli keygen"
- * @env USER_MAINKEY="RUN: php index.php /user/cli keygen"
+ * @env USER_COOKIEPASSWORD="-secret=put user_mainkey_here or make a new one"
+ * @env USER_MAINKEY="RUN: php vendor/bin/cryodrift.php /user/cli keygen || RUN: php index.php /user/cli keygen"
  * @env USER_USE2FA=false
  * @env USER_HIDELOGIN=true
  * @env USER_AUTHDIR="G_ROOTDIR.cryodrift/auth/"
