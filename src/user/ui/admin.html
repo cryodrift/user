@@ -1,0 +1,16 @@
+<div class="{{g-cont-full}}">
+    <div class="{{g-box-head}} g-tusn">
+        <h3 class="{{g-button}}"><a href="/">Settings</a></h3>
+    </div>
+    <div class="{{g-box-body}} {{g-cont}} g-tusn" data-tabswitch-classes="g-b g-mb-1 g-active" data-tabswitch-queryparam="tabs">
+        <button class="{{g-button}}" data-queryclick="tabs|email" name="email" data-click="refresh|/user/api/email|html,#user_admin,inner tabswitch">mail</button>
+        <button class="{{g-button}}" data-queryclick="tabs|pass" name="pass" data-click="refresh|/user/api/password|html,#user_admin,inner tabswitch">password</button>
+        <button class="{{g-button}}" data-queryclick="tabs|secret" name="secret" data-click="refresh|/user/api/2fa|html,#user_admin,inner tabswitch">two factor key</button>
+    </div>
+    <div id="user_admin" class="{{g-box-body}} {{g-cont-full}} g-mc1 g-mrc g-mlc {{g-box-small}}">
+
+    </div>
+    <div class="{{g-box-foot}}">
+        always remember your password
+    </div>
+</div>
